@@ -152,6 +152,7 @@
   text-decoration: none;
   color: #f8f8f8;
   font-weight: bold;
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s; /* Added the 'transition' property here */
 }
 
 /* CSS for graphical outline */
@@ -164,4 +165,10 @@
   border: 1px solid #247fe0; /* Adjust the color as needed */
   border-radius: 4px;
   pointer-events: none; /* Prevent the outline from interfering with clicks */
+}
+.iconContainer:hover {
+  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
 }
