@@ -1,0 +1,48 @@
+.card-with-border {
+    border: 1px solid #e5e5e5; /* You can adjust the border style as needed */
+  }
+  /* CSS for the App component */
+body {
+    background-color: #f4f4f4; /* Set a light background color */
+  }
+  
+  .card {
+    border: 2px solid #007BFF; /* Add a blue border to all cards */
+    border-radius: 10px; /* Add rounded corners to the cards */
+    margin-bottom: 20px; /* Add some spacing between cards */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add a subtle shadow to cards */
+  }
+  
+  .card-title {
+    color: #007BFF; /* Set the card title color to blue */
+  }
+  
+  .card-text {
+    font-size: 18px; /* Increase font size for card text */
+  }
+  
+  .card-link {
+    color: #007BFF; /* Set card link color to blue */
+    font-weight: bold; /* Make card links bold */
+  }
+  
+  .card-link:hover {
+    text-decoration: none; /* Remove underline on hover */
+  }
+  
+  /* Optional: Add styling for specific card components */
+  .card:nth-child(odd) {
+    background-color: #ffffff; /* Set an alternate background color for odd cards */
+  }
+  
+  .card:nth-child(even) {
+    background-color: #f0f0f0; /* Set an alternate background color for even cards */
+  }
+  .app-container {
+    background-color: #f4f4f4; /* Set the background color for the page */
+    border: 2px solid #007BFF; /* Add a border to the page */
+    padding: 20px; /* Add some padding to the page content */
+    border-radius: 10px; /* Add rounded corners to the border */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add a subtle shadow to the page */
+  }
+  /* Add more CSS styles as needed for specific elements or components */

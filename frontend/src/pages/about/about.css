@@ -1,0 +1,29 @@
+.about-emit {
+  background-image: url('https://images.pexels.com/photos/813269/pexels-photo-813269.jpeg?cs=srgb&dl=pexels-min-an-813269.jpg&fm=jpg'); /* Set your background image URL */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white; /* Text color */
+  height: 100vh; /* 100% viewport height */
+  width: 100%; /* 100% width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align contents at the top */
+  padding: 20px; /* Add padding to the content */
+  text-align: center; /* Center align text */
+}
+
+.about-heading {
+  font-weight: bold; /* Make headings bold */
+  font-size: 36px; /* Increase the font size for headings */
+  margin-bottom: 20px; /* Add spacing between heading and paragraphs */
+}
+
+.about-paragraph {
+  font-size: 25px; /* Adjust the font size for paragraphs */
+  margin-bottom: 20px; /* Add spacing between paragraphs */
+  width:80%;
+  text-align: left; /* Align paragraphs to the left */
+}
+

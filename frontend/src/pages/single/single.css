@@ -1,0 +1,6 @@
+.single {
+    display: flex;
+    background-color: #fdfdfd83; /* Set the background color to sky blue */
+    height: 100vh; /* Cover full viewport height */
+    width: 100%; /* Cover full viewport width */
+  }

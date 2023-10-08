@@ -1,0 +1,49 @@
+.register {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0.023)
+    ),
+    url("https://cdn.pixabay.com/photo/2011/12/14/12/21/orion-nebula-11107_1280.jpg");
+  background-size: cover;
+}
+
+.registerTitle {
+  font-size: 50px;
+  color: white;
+}
+
+.registerForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 300px; /* Adjust the width of the form */
+  padding: 20px; /* Add padding to the form */
+}
+
+.registerForm > label {
+  margin: 10px 0;
+  color: white;
+  font-size: 16px; /* Adjust the font size of labels */
+}
+
+.registerInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  font-size: 16px; /* Adjust the font size of input fields */
+}
+
+.registerButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color:  rgb(57, 2, 196);
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 18px; /* Adjust the font size of the button */
+}

@@ -1,0 +1,56 @@
+.login {
+  height: calc(100vh - 50px);
+  width: 100%; /* Adjust the width to fit your design */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.134),
+      rgba(255, 255, 255, 0.078)
+    ),
+    url("https://cdn.pixabay.com/photo/2017/08/15/08/23/stars-2643089_1280.jpg");
+  background-size: cover;
+}
+
+.loginForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 300px; /* Adjust the width of the form */
+  padding: 20px; /* Add padding to the form */
+}
+
+.loginForm > label {
+  margin: 10px 0;
+  color: white;
+  font-size: 16px; /* Adjust the font size of labels */
+}
+
+.loginInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  font-size: 16px; /* Adjust the font size of input fields */
+}
+
+.loginButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: rgb(59, 0, 207);
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 18px; /* Adjust the font size of the button */
+}
+
+.loginButton:disabled {
+  cursor: not-allowed;
+  background-color: rgb(252, 173, 173);
+}
+
+.loginTitle {
+  font-size: 50px;
+  color: white;
+}
