@@ -43,6 +43,6 @@
       "last 1 safari version"
     ]
   },
-  "main": "backend/index.js", 
+  "main": "backend/app.js", 
   "proxy": "http://localhost:5000/api/"
 }
