@@ -10,20 +10,20 @@ export default function Home() {
   const [posts, setPosts] = useState([]);
   const { search } = useLocation();
 
-  useEffect(() => {
+  /*useEffect(() => {
     const fetchPosts = async () => {
       const res = await axios.get("/posts" + search);
       setPosts(res.data);
     };
     fetchPosts();
-  }, [search]);
+  }, [search]);*/
 
   return (
     <>
       <Header />
       <div className="home">
         <iframe className="headerImg" src="https://eyes.nasa.gov/apps/earth/#/" title="NASA SPACE APP"></iframe>
-        <Posts posts={posts} />      
+        {/*<Posts posts={posts} />      */}
 
       </div>
 
